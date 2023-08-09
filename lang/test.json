@@ -1,14 +1,7 @@
 {
-    "lang": [
-        {
-            "welcom": [
-                "wel1"
-            ]
-        },
-        {
-            "text": [
-                "text1"
-            ]
-        }
-    ]
+  "response":{
+    "album_id":114
+    "upload_url":"ddd"
+    "user_id":11
+  }
 }
