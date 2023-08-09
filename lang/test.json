@@ -1,6 +1,8 @@
-[
-    {
-        "welcom": "wel1",
-        "text": "text1"
-    }
-]
+{
+    "lang": [
+        {
+            "welcom": "wel1",
+            "text": "text1"
+        }
+    ]
+}
