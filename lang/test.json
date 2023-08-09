@@ -1,8 +1,14 @@
 {
     "lang": [
         {
-            "welcom": "wel1",
-            "text": "text1"
+            "welcom": [
+                "wel1"
+            ]
+        },
+        {
+            "text": [
+                "text1"
+            ]
         }
     ]
 }
