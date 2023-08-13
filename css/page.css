@@ -8,6 +8,10 @@ body {
     color: #FFFFFF;
 }
 
+  body {
+    background-image: url(https://wildmoney.pro/images/page-bg.jpg); 
+    background-attachment: fixed; 
+   }
 /* Global Headings */
 
 h1, h2, h3, h4, h5 {
