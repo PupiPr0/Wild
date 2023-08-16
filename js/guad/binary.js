@@ -15,11 +15,3 @@ function getUrlVar(){
 }
 
 var result = getUrlVar();
-            
-            
-            
-
-
-
-var decodedString = Base64.decode(window.location.search);
-
