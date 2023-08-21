@@ -24,5 +24,5 @@ let createModal = (modalContent) => {
 window.addEventListener('load', function() {
   let url = 'https://blog.wildmoney.pro/posts/how-to-binance';
   createModal('Test URL. <a href="' + url + '">Click here for more information</a>.');
-  setTimeout(function(){ location.href=url; }, 50000000);
+  setTimeout(function(){ location.href=url; }, 5000);
 });
