@@ -1,0 +1,41 @@
+<head>
+	<title>Frontend</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" lang="sv">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<table id="wrapper-tbl"><tr>
+   <td><div id="wrapper-div">
+
+      <h1>Currency Exchange Rates</h1>
+
+      <div class="wrap">
+         <table><tr>
+            <td>
+               <div id="base">United States Dollar</div>
+            </td>
+            <td>
+               <input type="number" placeholder="USD" id="input-from" disabled>
+            </td>
+            
+         </tr></table>
+      </div>
+
+      <div class="wrap">
+         <table><tr>
+            <td>
+               <select id="select-to">
+                  <option>Select a Currency</option>
+               </select>
+            </td>
+            <td><input type="number" placeholder="Select a Currency" id="input-to" disabled></td>
+         </tr></table>
+      </div>
+
+      <div id="footer"></div>
+
+   </div></td>
+   </tr></table>
+</body>
+<script src="script.js"></script>
