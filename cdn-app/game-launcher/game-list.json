@@ -1,0 +1,48 @@
+{
+   "wildmoneygame": {
+      "url_img": "https://wildmoney.pro/social-image/wmp-sp.jpg",
+      "update_path": "https://wildmoney.pro/launc-cdn/path.xml",
+      "online": 145
+   },
+   "game": {
+
+      "minecraft": {
+         "online": 45,
+         "title": "Minecraft",
+         "descp": "Minecraft - Online Game",
+         "img": "https://wildmoney.pro/social-image/minectaft.jpg",
+         "gameinfo": "https://wildmoney.pro/launc-cdn/game/minectaft.json",
+         "platform":"win,linux,mac"
+      },
+     
+      "gtasa": {
+         "online": 100,
+         "title": "GTA San Andreass",
+         "descp": "GTA San Andreass Multi Player",
+         "img": "https://wildmoney.pro/social-image/gtasa.jpg",
+         "gameinfo": "https://wildmoney.pro/launc-cdn/game/samp.json",
+         "platform":"win"
+      },
+
+      "proxy-url": "https://wildmoney.pro/launc-cdn/proxy.list",
+      "reserve": [
+         "stt-cdn.wildmoney.pro",
+         "columb-cdn.wildmoney.pro",
+         "npm-module-cdn.wildmoney.pro",
+         "trading.wildmoney.pro",
+         "st2-cdn.wildmoney.pro",
+         "st5-cdn.wildmoney.pro",
+         "st7-cdn.wildmoney.pro",
+         "europe-cdn.wildmoney.pro",
+         "poland-cdn.wildmoney.pro",
+         "wroclav-cdn.wildmoney.pro",
+         "krk-cdn.wildmoney.pro",
+         "warzaw-cdn.wildmoney.pro",
+         "lublin-cdn.wildmoney.pro",
+         "zewuz-cdn.wildmoney.pro",
+         "atlanta-cdn.wildmoney.pro"
+
+      ]
+   },
+   "message": "Please Share to friends this launcher!"
+}
