@@ -1,0 +1,36 @@
+<html>
+`<canvas id="canvas" width="512" height="512"></canvas>`
+
+<sript>
+
+  $(document).ready(function() {
+    $.getJSON('path/to/your/json/file', function(data) {
+        var frames = data.layers[0].frames;
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+         
+        var current = 0;
+        var interval;
+ 
+        function play(){
+            interval = setInterval(function() {
+                ctx.clearRect(0,0,canvas.width,canvas.height);
+                ctx.drawImage(frames[current].image,0,0);
+                current++;
+                current %= frames.length;   
+            }, 100); 
+        }
+ 
+        function pause(){
+            clearInterval(interval);
+        }
+ 
+        $('#canvas').click(function() {
+            if (interval) {pause();}
+            else {play();}
+        });
+    });
+});
+</sript>
+  
+</html>
