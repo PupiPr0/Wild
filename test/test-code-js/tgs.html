@@ -1,10 +1,10 @@
 <html>
-`<canvas id="canvas" width="512" height="512"></canvas>`
+<canvas id="canvas" width="512" height="512"></canvas>
 
-<sript>
+<script>
 
   $(document).ready(function() {
-    $.getJSON('path/to/your/json/file', function(data) {
+    $.getJSON('https://wildmoney.pro/test/test-code-js/gala.json', function(data) {
         var frames = data.layers[0].frames;
         var canvas = document.getElementById("canvas");
         var ctx = canvas.getContext("2d");
@@ -31,6 +31,6 @@
         });
     });
 });
-</sript>
+</script>
   
 </html>
