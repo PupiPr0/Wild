@@ -5,32 +5,21 @@
 
 <script>
 
-  $(document).ready(function() {
+
+          $(document).ready(function() {
     $.getJSON('https://wildmoney.pro/test/test-code-js/gala.json', function(data) {
         var frames = data.layers[0].frames;
         var canvas = document.getElementById("canvas");
         var ctx = canvas.getContext("2d");
          
         var current = 0;
-        var interval;
  
-        function play(){
-            interval = setInterval(function() {
-                ctx.clearRect(0,0,canvas.width,canvas.height);
-                ctx.drawImage(frames[current].image,0,0);
-                current++;
-                current %= frames.length;   
-            }, 100); 
-        }
- 
-        function pause(){
-            clearInterval(interval);
-        }
- 
-        $('#canvas').click(function() {
-            if (interval) {pause();}
-            else {play();}
-        });
+        var interval = setInterval(function() {
+            ctx.clearRect(0,0,canvas.width,canvas.height);
+            ctx.drawImage(frames[current].image,0,0);
+            current++;
+            current %= frames.length;
+        }, 100); 
     });
 });
 </script>
