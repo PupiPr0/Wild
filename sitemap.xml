@@ -73,5 +73,11 @@
 	<loc>https://wildmoney.pro/reviews-of-investment-companies/mineplex/</loc>
 	<priority>0.8</priority>
 </url>    
+
+<url>
+	<loc>https://wildmoney.pro/crypto-finance/</loc>
+	<priority>0.8</priority>
+</url>
+			
       
 </urlset>
