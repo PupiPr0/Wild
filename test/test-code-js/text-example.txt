@@ -1,0 +1,10 @@
+Klient oprogramowania Bitcoin Core korzysta z biblioteki OpenSSL. 
+W szczególności wykorzystuje funkcję "EC_KEY_generate_key ()" do generowania adresów Bitcoin (np. klucza) 
+do otrzymywania płatności. Starsze wersje Bitcoin Core generują i przechowują 100 kluczy w wallet.dat
+Nowy klucz jest generowany tylko po otrzymaniu płatności Bitcoin. W ten sposób klient oprogramowania 
+Bitcoin Core przechowuje pulę 100 nieużywanych kluczy Bitcoin (adresów). Stan wewnętrznego generatora 
+liczb losowych zależy od tego, jakie inne wywołania zostały wykonane w bibliotece OpenSSL przed wywołaniem 
+' EC_KEY_generate_key ()'. Wywołania wpływające na stan wewnętrzny RNG to" RAND_add(8)"," RAND_bytes(8) "i"RAND_bytes(32)".
+Tak więc badanie polegało na przejrzeniu wielu starych źródeł bitcoinów, aby dowiedzieć się, jakie połączenia zostały wykonane, 
+które wpłynęły na wewnętrzny stan RNG przed wywołaniem "EC_KEY_generate_key()". Ścieżka wywołania zmienia się między wersjami 
+klienta oprogramowania Bitcoin Core
