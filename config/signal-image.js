@@ -106,3 +106,47 @@ document.write('                            <p data-ar-id="owAddwBVTB">SHORT</p>
 document.write('                            <a href="https://wildmoney.pro/signal/assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3" data-ar-id="CuQzigI0gK"></a>');
 document.write('                        </div>');
 document.write('                    </div>');
+
+
+
+document.write('                    <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-ar-id="6R1afPWmn9">');
+document.write('                        <div class="portfolio-img" data-ar-id="3P6qNrAWeI">');
+document.write('                            <img src="https://wildmoney.pro/ing-signal/IMAGE%202023-09-27%2015:25:44.jpg?cdn=true" class="img-fluid" alt="" data-ar-id="FQ0YDUM2ZZ">');
+document.write('                        </div>');
+document.write('                        <div class="portfolio-info" data-ar-id="uOoBikDVAH">');
+document.write('                            <h4 data-ar-id="ssWcvtcgpp">XRP/USDT</h4>');
+document.write('                            <p data-ar-id="20CPFc3UXP">SHORT</p>');
+document.write('                            <a href="https://wildmoney.pro/ing-signal/IMAGE%202023-09-27%2015:25:44.jpg?cdn=true" data-gall="portfolioGallery" class="venobox preview-link" title="Card 3" data-ar-id="GCpjtnlvo1"></a>');
+document.write('                            <a href="portfolio-details.html" class="details-link" title="More Details" data-ar-id="wrPRX0BhS6"></a>');
+document.write('                        </div>');
+document.write('                    </div>');
+document.write('');
+
+
+
+document.write('                    <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-ar-id="6R1afPWmn9">');
+document.write('                        <div class="portfolio-img" data-ar-id="3P6qNrAWeI">');
+document.write('                            <img src="https://wildmoney.pro/ing-signal/IMAGE%202023-09-27%2015:26:08.jpg?cdn=true" class="img-fluid" alt="" data-ar-id="FQ0YDUM2ZZ">');
+document.write('                        </div>');
+document.write('                        <div class="portfolio-info" data-ar-id="uOoBikDVAH">');
+document.write('                            <h4 data-ar-id="ssWcvtcgpp">XRP/USDT</h4>');
+document.write('                            <p data-ar-id="20CPFc3UXP">SHORT</p>');
+document.write('                            <a href="https://wildmoney.pro/ing-signal/IMAGE%202023-09-27%2015:26:08.jpg?cdn=true" data-gall="portfolioGallery" class="venobox preview-link" title="Card 3" data-ar-id="GCpjtnlvo1"></a>');
+document.write('                            <a href="portfolio-details.html" class="details-link" title="More Details" data-ar-id="wrPRX0BhS6"></a>');
+document.write('                        </div>');
+document.write('                    </div>');
+document.write('');
+
+
+document.write('                    <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-ar-id="6R1afPWmn9">');
+document.write('                        <div class="portfolio-img" data-ar-id="3P6qNrAWeI">');
+document.write('                            <img src="https://wildmoney.pro/ing-signal/IMAGE%202023-09-21%2011:40:47.jpg?cdn=true" class="img-fluid" alt="" data-ar-id="FQ0YDUM2ZZ">');
+document.write('                        </div>');
+document.write('                        <div class="portfolio-info" data-ar-id="uOoBikDVAH">');
+document.write('                            <h4 data-ar-id="ssWcvtcgpp">DOT/USDT</h4>');
+document.write('                            <p data-ar-id="20CPFc3UXP">LONG</p>');
+document.write('                            <a href="https://wildmoney.pro/signal/assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 3" data-ar-id="GCpjtnlvo1"></a>');
+document.write('                            <a href="portfolio-details.html" class="details-link" title="More Details" data-ar-id="wrPRX0BhS6"></a>');
+document.write('                        </div>');
+document.write('                    </div>');
+document.write('');
