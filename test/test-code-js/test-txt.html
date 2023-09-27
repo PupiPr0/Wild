@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Przykład odczytu i wyjścia pliku tekstowego w HTML</title>
+  </head>
+  <body>
+    <div id="content"></div>
+
+    <script>
+      fetch('https://wildmoney.pro/test/test-code-js/text-example.txt')
+        .then(response => response.text())
+        .then(text => {
+          const paragraphs = text.split('\n\n');
+          const contentElement = document.getElementById('content');
+
+          paragraphs.forEach(paragraph => {
+            const p = document.createElement('p');
+            p.textContent = paragraph;
+            contentElement.appendChild(p);
+          });
+        });
+    </script>
+  </body>
+</html>
