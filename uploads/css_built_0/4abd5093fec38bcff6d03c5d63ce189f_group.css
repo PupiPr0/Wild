@@ -1,0 +1,1 @@
+ .cGroupPermissions.ipsTable.ipsMatrix tr:not( .ipsMatrix_empty ) td{padding:0;}.cGroupPermissions.ipsTable.ipsMatrix tr:not( .ipsMatrix_empty ) td > div{padding:10px;border-left:1px solid rgba(0,0,0,0.1);}
