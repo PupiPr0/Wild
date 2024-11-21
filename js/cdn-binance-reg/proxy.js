@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     svgImage.alt = 'DK Logo';
     svgImage.style.width = '100%'; // 
     svgImage.style.height = '100%'; // 
+    svgImage.style.background = 'transparent'; 
 
     button.appendChild(svgImage);
 
